@@ -1,13 +1,15 @@
-import { Flex, VStack, Heading } from "@chakra-ui/react";
-import React from "react";
+import { Flex, Stack, Text } from "@chakra-ui/react";
+
+
+
 
 function Header() {
 	return (
-		<VStack>
+		<Stack>
 			<Flex>
-				<Heading>Gustavo Sepulveda</Heading>
+				<Text>Hi, I'm Gustavo and I specialize in Front-end Web and Mobile Devoloper</Text>
 			</Flex>
-		</VStack>
+		</Stack>
 	);
 }
 
