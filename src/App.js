@@ -15,7 +15,7 @@ function App() {
 					Projects
 				</Button>
 				<Button colorScheme="purple" variant="ghost">
-					<FaLinkedin />Linkedin
+					Linkedin
 				</Button>
 				<Button colorScheme="purple" variant="ghost">
 					Resume
