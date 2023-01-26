@@ -7,7 +7,7 @@ import {
 	FaBootstrap,
 	FaNodeJs,
 } from "react-icons/fa";
-import { SiMongodb, SiExpress } from "react-icons/si";
+import { SiMongodb, SiExpress, SiChakraui } from "react-icons/si";
 import { Stack, Flex, Text, Box } from "@chakra-ui/react";
 
 function Profile() {
@@ -37,6 +37,8 @@ function Profile() {
         <Box>
 				<FaBootstrap size="3rem" />
         <Text>BootStrap</Text>
+        <SiChakraui size="3rem" />
+        <Text>ChakraUI</Text>
         </Box>
 			</Flex>
 		</Stack>
