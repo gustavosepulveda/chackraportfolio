@@ -14,32 +14,32 @@ function Profile() {
 	return (
 		<Stack>
 			<Flex>
-        <Box>
-				<FaHtml5 size="3rem"></FaHtml5>
-        <Text>HTML</Text>
-				<FaCss3 size="3rem" />
-        <Text>CSS</Text>
-				<FaJs size="3rem" />
-        <Text>JavaScript</Text>
-				<FaReact size="3rem" />
-        <Text>React</Text>
-        </Box>
+				<Box p={4}>
+					<FaHtml5 size="3rem"></FaHtml5>
+					<Text>HTML</Text>
+					<FaCss3 size="3rem" />
+					<Text>CSS</Text>
+					<FaJs size="3rem" />
+					<Text>JavaScript</Text>
+					<FaReact size="3rem" />
+					<Text>React</Text>
+				</Box>
 
-        <Box>
-				<FaNodeJs size="3rem" />
-        <Text>NodeJS</Text>
-				<SiMongodb size="3rem" />
-        <Text>MongoDB</Text>
-				<SiExpress size="3rem" />
-        <Text>Express</Text>
-        </Box>
+				<Box p={4}>
+					<FaNodeJs size="3rem" />
+					<Text>NodeJS</Text>
+					<SiMongodb size="3rem" />
+					<Text>MongoDB</Text>
+					<SiExpress size="3rem" />
+					<Text>Express</Text>
+				</Box>
 
-        <Box>
-				<FaBootstrap size="3rem" />
-        <Text>BootStrap</Text>
-        <SiChakraui size="3rem" />
-        <Text>ChakraUI</Text>
-        </Box>
+				<Box p={4}>
+					<FaBootstrap size="3rem" />
+					<Text>BootStrap</Text>
+					<SiChakraui size="3rem" />
+					<Text>ChakraUI</Text>
+				</Box>
 			</Flex>
 		</Stack>
 	);

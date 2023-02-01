@@ -1,17 +1,25 @@
-import { Flex, Stack, Text, Center } from "@chakra-ui/react";
+import { Flex, Stack, Text, Box } from "@chakra-ui/react";
 
 function Header() {
 	return (
-		<Stack>
-			<Flex>
-				<Center width='300px'>
-				<Text fontSize='4xl'>
-					Hi, I'm Gustavo. <br />A Full Stack Developer specializing in
-					front-end web development
+		<Flex
+			p={{ base: 4, md: 14 }}
+			w="100%"
+			direction={{ base: "column-reverse", md: "row" }}
+		>
+			<Box
+				p={{ base: 4, md: 14 }}
+				w="100%"
+				direction={{ base: "column-reverse", md: "row" }}
+			>
+				<Text fontSize="4xl">
+					Hi, I'm Gustavo. <br />
 				</Text>
-				</Center>
-			</Flex>
-		</Stack>
+				<Text fontSize="2xl">
+					A Full Stack Developer specializing in front-end web development
+				</Text>
+			</Box>
+		</Flex>
 	);
 }
 

@@ -1,5 +1,4 @@
 import { Flex, VStack, Heading, Button, Spacer } from "@chakra-ui/react";
-import { FaLinkedin } from "react-icons/fa";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
 
