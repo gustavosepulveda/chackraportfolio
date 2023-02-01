@@ -15,9 +15,7 @@ function Header() {
 				<Text fontSize="4xl">
 					Hi, I'm Gustavo. <br />
 				</Text>
-				<Text fontSize="2xl">
-					A Full Stack Developer specializing in front-end web development
-				</Text>
+				<Text fontSize="2xl">Full Stack Developer</Text>
 			</Box>
 		</Flex>
 	);

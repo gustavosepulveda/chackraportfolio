@@ -13,8 +13,14 @@ import { Stack, Flex, Text, Box } from "@chakra-ui/react";
 function Profile() {
 	return (
 		<Stack>
-			<Flex>
-				<Box p={4}>
+			<Box>
+				<Text p="2">
+					I specialize in full-stack web development primarally using the MERN
+					stack.
+				</Text>
+			</Box>
+			<Flex justify="center">
+				<Box p={5}>
 					<FaHtml5 size="3rem"></FaHtml5>
 					<Text>HTML</Text>
 					<FaCss3 size="3rem" />
@@ -25,7 +31,7 @@ function Profile() {
 					<Text>React</Text>
 				</Box>
 
-				<Box p={4}>
+				<Box p={5}>
 					<FaNodeJs size="3rem" />
 					<Text>NodeJS</Text>
 					<SiMongodb size="3rem" />
@@ -34,9 +40,9 @@ function Profile() {
 					<Text>Express</Text>
 				</Box>
 
-				<Box p={4}>
+				<Box p={5} >
 					<FaBootstrap size="3rem" />
-					<Text>BootStrap</Text>
+					<Text >BootStrap</Text>
 					<SiChakraui size="3rem" />
 					<Text>ChakraUI</Text>
 				</Box>
