@@ -12,7 +12,7 @@ function Header() {
 				w="100%"
 				direction={{ base: "column-reverse", md: "row" }}
 			>
-				<Text fontSize="4xl">
+				<Text fontSize="4xl" fontWeight='bold'>
 					Hi, I'm Gustavo. <br />
 				</Text>
 				<Text fontSize="2xl">Full Stack Developer</Text>
